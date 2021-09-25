@@ -1,0 +1,75 @@
+[
+    {
+        "key": "A001",
+        "name": "Dr. Jhon Peter",
+        "specialty": "Senior Consultant, Pediatrics",
+        "degree": "MBBS (DMC), FCPS, MRCP (UK)",
+        "img": "https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png",
+        "salary": 12000
+    },
+    {
+        "key": "A002",
+        "name": "Dr. Tony Hamar",
+        "specialty": "Associate Consultant, Pediatric Nephrology",
+        "degree": "MBBS, MD Clinical Fellow (National University)",
+        "img": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
+        "salary": 9000
+    },
+    {
+        "key": "A003",
+        "name": "Dr. Menila Alshly",
+        "specialty": "Associate Consultant, Pediatric Cardiology",
+        "degree": "MBBS, DCH, FCPS (Pediatrics)",
+        "img": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=626&ext=jpg",
+        "salary": 19000
+    },
+    {
+        "key": "A004",
+        "name": "Dr. Alexa Emay",
+        "specialty": "Senior Consultant, Pediatrics & Neonatology",
+        "degree": "MBBS, MD (Pediatrics), MD (Neonatology), Fellow Newborn Medicine (Canada)",
+        "img": "https://purepng.com/public/uploads/large/purepng.com-doctordoctorsdoctors-and-nursesclinicianmedical-practitionernotepadfemale-1421526857248uragw.png",
+        "salary": 17000
+    },
+    {
+        "key": "A005",
+        "name": "Dr. Henry Hawkines",
+        "specialty": "Consultant, Pediatrics & Pediatric ICU",
+        "degree": "MBBS, DCH, FCPS (Pediatrics)",
+        "img": "http://www.woodlandshospital.in/images/doctor-img/debasish-sanyal.jpg",
+        "salary": 32000
+    },
+    {
+        "key": "A006",
+        "name": "Dr. Jack Bekker",
+        "specialty": "Consultant, Pediatrics",
+        "degree": "MBBS, DCH, FCPS (Paed)",
+        "img": "https://www.meridianinstitutes.com/wp-content/uploads/2018/07/doctor-img-06-free-img.jpg",
+        "salary": 7000
+    },
+    {
+        "key": "A007",
+        "name": "Dr. Brice Walker",
+        "specialty": "Consultant, Pediatrics & Pediatric ICU",
+        "degree": "MBBS, DLO (DU), FICS (USA)",
+        "img": "https://toppng.com/uploads/preview/doctor-png-11553965695dlvvrumvgy.png",
+        "salary": 8000
+    },
+    {
+        "key": "A008",
+        "name": "Dr. Patey Watson",
+        "specialty": "Consultant, Pediatrics & Pediatric ICU",
+        "degree": "MBBS, DCH, FCPS (Pediatrics)",
+        "img": "https://thumbs.dreamstime.com/b/patient-consult-doctor-video-call-woman-doctor-white-coat-crossed-arms-patient-consult-doctor-video-call-189653800.jpg",
+        "salary": 22000
+    },
+    {
+        "key": "A009",
+        "name": "Dr. Alex Standel",
+        "specialty": "Senior Consultant, Pediatrics",
+        "degree": "MBBS (DMC), FCPS, MRCP (UK)",
+        "img": "https://toppng.com/uploads/preview/doctor-png-11553965920coieh57tza.png",
+        "salary": 12000
+    }
+    
+]
