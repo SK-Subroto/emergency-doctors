@@ -14,7 +14,7 @@ const Emergency = () => {
 
     const handleAddToTeam = (doctor) => {
         const teamDoctor = team.find(doc => doc.key === doctor.key);
-        // console.log(teamDoctor);
+        // restrict from adding same person mutiple time
         if (!teamDoctor){
             const newTeam = [...team, doctor];
             setTeam(newTeam);
@@ -22,21 +22,23 @@ const Emergency = () => {
     }
 
     return (
-        <div className="row">
-            <div className="col-9">
-                <div className="row row-cols-1 row-cols-md-3 g-4">
-
-                    {
-                        doctors.map(doctor => <Doctor
-                            key={doctor.key}
-                            doctor={doctor}
-                            handleAddToTeam={handleAddToTeam}
-                        />)
-                    }
+        <div className="container">
+            <div className="row">
+                <div className="col-12 col-md-6 col-lg-9 order-1 order-md-0">
+                    <div className="row row-cols-1 row-cols-lg-3 g-4">
+                        {/* looping doctors */}
+                        {
+                            doctors.map(doctor => <Doctor
+                                key={doctor.key}
+                                doctor={doctor}
+                                handleAddToTeam={handleAddToTeam}
+                            />)
+                        }
+                    </div>
                 </div>
-            </div>
-            <div className="col-3">
-                <Team team={team} />
+                <div className="col-12 col-md-6 col-lg-3 order-0 order-md-1">
+                    <Team team={team} />
+                </div>
             </div>
         </div>
     );

@@ -1,3 +1,19 @@
 .doctor-img{
     height: 250px;
 }
+.doctor-name{
+    color: #01579B;
+}
+.doctor-salary{
+    color: rgb(68, 121, 218);
+}
+.add-to-team-btn{
+    background-color: #01579B;
+    color: white;
+    border-radius: 5px;
+}
+.add-to-team-btn:hover{
+    background-color: #0288D1;
+    color: white;
+    border-radius: 5px;
+}

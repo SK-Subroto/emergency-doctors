@@ -1,6 +1,12 @@
+.team-container{
+    background-color: #0288D1;
+    color: white;
+    padding: 15px 0;
+}
+
 .doc-img{
     height: 45px;
     width: 45px;
-    border: 2px gray solid;
+    border: 2px #0288D1 solid;
     border-radius: 50%;
 }
