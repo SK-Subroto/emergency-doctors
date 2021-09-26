@@ -3,9 +3,10 @@ import './Team.css'
 
 const Team = (props) => {
     const {team} = props
-    // console.log(team.length);
+
     const totalDoctor = team.length ? team.length : 0;
 
+    // calculate total cost
     const totalDocReducer = (previous, doctor) => previous + doctor.salary;
     const totalSalary = team.reduce(totalDocReducer, 0);
 

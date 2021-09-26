@@ -3,9 +3,11 @@ import Doctor from '../Doctor/Doctor';
 import Team from '../Team/Team';
 
 const Emergency = () => {
+    //handle state
     const [doctors, setDoctors] = useState([]);
     const [team, setTeam] = useState([]);
 
+    // fetch data 
     useEffect(() => {
         fetch('./doctors.JSON')
             .then(res => res.json())
